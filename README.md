@@ -80,7 +80,6 @@ Tarayıcınızda `http://127.0.0.1:5000` adresine giderek uygulamayı kullanabil
 ## 📸 Örnek Görseller
 
 ### 1. Eğitim Grafikleri
-![Eğitim Grafikleri](https://via.placeholder.com/600x300)
 ![model1](https://github.com/user-attachments/assets/77449878-dcaa-434a-9c15-2d1d801b0fd1)
 
 ![model2](https://github.com/user-attachments/assets/6587e254-eb0f-4fd9-94be-2dc91c9d2bce)
@@ -88,7 +87,7 @@ Tarayıcınızda `http://127.0.0.1:5000` adresine giderek uygulamayı kullanabil
 ![hesap_metrik](https://github.com/user-attachments/assets/d5f5bd3b-6bea-4723-8eee-37c73f963365)
 
 ### 2. Web Arayüz
-![Web Arayüz](https://via.placeholder.com/600x300)
+
 ![Ekran görüntüsü 2024-05-30 173710](https://github.com/user-attachments/assets/5c8fc2e9-beef-4c0a-ae63-613024c7fc21)
 ![sonuc](https://github.com/user-attachments/assets/efad3e24-5a04-4131-9bff-d5d149d67645)
 
