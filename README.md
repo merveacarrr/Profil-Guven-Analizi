@@ -80,14 +80,12 @@ Tarayıcınızda `http://127.0.0.1:5000` adresine giderek uygulamayı kullanabil
 ## 📸 Örnek Görseller
 
 ### 1. Eğitim Grafikleri
-![Eğitim Grafikleri]
+![Eğitim Grafikleri](https://via.placeholder.com/600x300)
 ![model1](https://github.com/user-attachments/assets/77449878-dcaa-434a-9c15-2d1d801b0fd1)
+
 ![model2](https://github.com/user-attachments/assets/6587e254-eb0f-4fd9-94be-2dc91c9d2bce)
 
 ![hesap_metrik](https://github.com/user-attachments/assets/d5f5bd3b-6bea-4723-8eee-37c73f963365)
-
-![cm1](https://github.com/user-attachments/assets/0620824c-80ce-44bd-942c-51b5bb04319f)
-![cm2](https://github.com/user-attachments/assets/b2536dc6-0147-4ae7-b440-0118bfe7b9c1)
 
 ### 2. Web Arayüz
 ![Web Arayüz](https://via.placeholder.com/600x300)
