@@ -89,6 +89,7 @@ Tarayıcınızda `http://127.0.0.1:5000` adresine giderek uygulamayı kullanabil
 ### 2. Web Arayüz
 
 ![Ekran görüntüsü 2024-05-30 173710](https://github.com/user-attachments/assets/5c8fc2e9-beef-4c0a-ae63-613024c7fc21)
+
 ![sonuc](https://github.com/user-attachments/assets/efad3e24-5a04-4131-9bff-d5d149d67645)
 
 ---
