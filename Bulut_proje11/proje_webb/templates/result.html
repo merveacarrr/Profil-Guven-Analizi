@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Değerlendirme Sonuç Sayfası</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <style>
+        body {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .result {
+            margin-top: 20px;
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .result h4, .result p, .result ul {
+            text-align: left;
+        }
+        .result ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .result ul li {
+            padding: 5px 0;
+        }
+        .back-link {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: #ecf0f1;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-link:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Değerlendirme Sonuç Sayfası</h2>
+        <div class="result">
+            <h4>Sonuçlar:</h4>
+            <p>Sahte Hesap Olma Olasılığı: {{ fake_percentage }}%</p>
+            <p>Gerçek Hesap Olma Olasılığı: {{ real_percentage }}%</p>
+            <h4>Kullanıcı Verileri:</h4>
+            <ul>
+                <li>Kullanıcı Adı Uzunluğu: {{ kullanıcı_verileri['nums/length username'] }}</li>
+                <li>Profil Adı Kelime Sayısı: {{ kullanıcı_verileri['fullname words'] }}</li>
+                <li>Profil Adı Uzunluğu: {{ kullanıcı_verileri['nums/length fullname'] }}</li>
+                <li>Açıklama Uzunluğu: {{ kullanıcı_verileri['description length'] }}</li>
+                <li>Post Sayısı: {{ kullanıcı_verileri['#posts'] }}</li>
+                <li>Takipçi Sayısı: {{ kullanıcı_verileri['#followers'] }}</li>
+                <li>Takip Sayısı: {{ kullanıcı_verileri['#follows'] }}</li>
+            </ul>
+        </div>
+        <a class="back-link" href="/">Form sayfasına geri dön.</a>
+    </div>
+</body>
+</html>
